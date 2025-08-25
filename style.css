@@ -334,15 +334,26 @@ footer section div h3
 .bannerCarrera h1
 {
     text-align:center;
+    padding:1.5%;
+    font-size: 40px;
+}
+
+.bannerCarrera h1 b
+{
+    background-color: #67cf55;
+    color:white;
+    border-radius: 10px;
 }
 .bannerCarrera h3{
     text-align: center;
     border-bottom: 1px solid white;
+    padding:1.5%;
+    font-size:25px;
 }
 
 .carrera1 
 {
-    margin-top:5%;
+    margin-top:2.5%;
     margin-bottom:8%;
 }
 .carrera1 img
@@ -355,7 +366,7 @@ footer section div h3
 
 .carrera1 h1
 {
-    padding:0.2%;
+    padding:1%;
     font-size: 45px;
     margin-bottom:1%;
     border:1px solid white;
@@ -379,7 +390,7 @@ footer section div h3
 .carrera2 h1
 {
     clear: both;
-    padding:0.2%;
+    padding:1%;
     font-size: 45px;
     margin-bottom:1%;
     border:1px solid white;
@@ -453,12 +464,26 @@ footer section div h3
 .bannerNosotros h1
 {
     text-align: center;
-    background-color: #92ce87;
+    background-color:#67cf55;
+    padding:2%;
+    font-size:43px;
 }
 
 .bannerNosotros h3
 {
     text-align: center;
+    padding:2%;
+    font-size: 35px;
+    margin-bottom: 1%;
+    border-bottom: 2px solid white;
+    
+}
+
+.bannerNosotros h3 b
+{
+    background-color: #67cf55;
+    color:white;
+    border-radius: 10px;
 }
 
 .bannerNosotros p
@@ -469,12 +494,6 @@ footer section div h3
     text-align: center;
 }
 
-.bannerNosotros h3
-{
-    font-size: 30px;
-    margin-bottom: 1%;
-    border-bottom: 2px solid white;
-}
 .bannerIngenieria
 {
     background-image: url(Imagenes/fastBootCore.png);
@@ -482,6 +501,7 @@ footer section div h3
     background-repeat: no-repeat;
     background-size: 100% 80%;
     margin-top:2%;
+    
 }
 
 .bannerIngenieria h1
@@ -555,7 +575,7 @@ footer section div h3
     margin-left:1%;
     margin-right: 1%;
     border-radius: 15px;
-    padding:0.3%;
+    padding:1%;
 }
 .nuestrosValores p
 {
